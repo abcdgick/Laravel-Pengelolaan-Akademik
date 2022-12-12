@@ -7,6 +7,7 @@ return[
         'prasyarat' => 'Matkul Prasyarat',
         'kode' => 'Kode Matkul',
         'nama' => 'Nama Matkul',
+        'sks' => "SKS",
         'edit' => 'Ubah',
         'hapus' => 'Hapus',
         'popup' => 'Yakin mau hapus?'

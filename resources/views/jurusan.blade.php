@@ -4,11 +4,11 @@
 @section('content')
 <div class="container-fluid px-4">
     @if(Session::has('pesan'))
-        <div class="alert alert-info" role="alert">
+        <div class="alert alert-info mt-4" role="alert">
             {{Session::get('pesan')}}
         </div>
     @endif
-    <h1 class="mt-4">{{__('tabeljur.title')}}</h1>
+    <h2 class="mt-4">{{__('tabeljur.title')}}</h2>
     <p><a href="/createjurusan">
         <button class="btn btn-primary mb-2">{{__('tabeljur.tampil.tambah')}}</button></a></p>
     <div class="card mb-4">
@@ -62,6 +62,10 @@
                 </tbody>
             </table>
         </div>
+    </div>
+    <div class="container mb-4">
+        <a href="/jurusan/en">English</a> | 
+        <a href="/jurusan">Indonesia</a> 
     </div>
 </div>
 @endsection

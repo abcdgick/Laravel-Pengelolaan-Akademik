@@ -1,6 +1,9 @@
 <?php
 return[
-    'title' => 'Tambah Dosen',
+    'title' => [
+        'tambah' => 'Tambah Dosen',
+        'edit' => 'Edit Dosen'
+    ],
     'input' => [
         'nama' => 'Nama Dosen'
     ]

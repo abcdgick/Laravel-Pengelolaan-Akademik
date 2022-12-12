@@ -2,13 +2,13 @@
 @section('title', 'Mahasiswa')
 
 @section('content')
-<div class="container-fluid px-4">
+<div class="container-fluid px-4 mt-4">
     @if(Session::has('pesan'))
         <div class="alert alert-info" role="alert">
             {{Session::get('pesan')}}
         </div>
     @endif
-    <h1 class="mt-4">{{__('tabelmaha.title')}}</h1>
+    <h2 class="mt-4">{{__('tabelmaha.title')}}</h2>
     <p><a href="/createmahasiswa">
         <button class="btn btn-primary mb-2">{{__('tabelmaha.tampil.tambah')}}</button></a></p>
     <div class="card mb-4">
@@ -96,6 +96,10 @@
                 </tbody>
             </table>
         </div>
+    </div>
+    <div class="container mb-4">
+        <a href="/mahasiswa/en">English</a> | 
+        <a href="/mahasiswa">Indonesia</a> 
     </div>
 </div>
 @endsection

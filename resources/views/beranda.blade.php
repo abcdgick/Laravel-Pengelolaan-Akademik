@@ -7,7 +7,7 @@
     <ol class="breadcrumb mb-4">
         <li class="breadcrumb-item active">Selamat Datang di Kampus Nexus!</li>
     </ol>
-    <div class="row">
+    <div class="row mb-4">
         <div class="container-sm mb-4">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -21,32 +21,32 @@
                     <div class="carousel-item active">
                         <img src="{{asset('assets\img\2.jpg')}}" class="d-block w-100" alt="Gambar 1">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Fasilitas Nexus</h5>
+                            <p>Nikmati Fasilitas Nexus yang Luar Biasa!</p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <img src="{{asset('assets\img\3.jpg')}}" class="d-block w-100" alt="Gambar 2">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5>Perpustakaan Digital</h5>
+                            <p>Perpustakaan Kami Menggunakan Teknologi Mikroservis</p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <img src="{{asset('assets\img\4.jpg')}}" class="d-block w-100" alt="Gambar 3">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Forth slide label</h5>
-                            <p>Some representative placeholder content for the forth slide.</p>
+                            <h5>Temui Dosen Kami!</h5>
+                            <p>Dosen Kampus Nexus Sangat Ramah dan Pengertian</p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <img src="{{asset('assets\img\5.jpg')}}" class="d-block w-100" alt="Gambar 4">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Fifth slide label</h5>
-                            <p>Some representative placeholder content for the fifth slide.</p>
+                            <h5>Anda Stress??</h5>
+                            <p>Sama Saya Juga!</p>
                         </div>
                     </div>
                 </div>
@@ -62,36 +62,27 @@
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="card bg-primary text-white mb-4">
-                <div class="card-body">Primary Card</div>
+                <div class="card-body">Daftar Kelas</div>
                 <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
+                    <a class="small text-white stretched-link" href="/lapkelas">Selengkapnya</a>
                     <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                 </div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="card bg-warning text-white mb-4">
-                <div class="card-body">Warning Card</div>
+                <div class="card-body">Transkrip Nilai</div>
                 <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
+                    <a class="small text-white stretched-link" href="/lapnilai">Selengkapnya</a>
                     <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                 </div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
-            <div class="card bg-success text-white mb-4">
-                <div class="card-body">Success Card</div>
+            <div class="card bg-info text-white mb-4">
+                <div class="card-body">Mata Kuliah</div>
                 <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
-                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card bg-danger text-white mb-4">
-                <div class="card-body">Danger Card</div>
-                <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
+                    <a class="small text-white stretched-link" href="/matkul">Selengkapnya</a>
                     <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                 </div>
             </div>

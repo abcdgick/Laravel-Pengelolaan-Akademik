@@ -1,6 +1,9 @@
 <?php
 return[
-    'title' => 'Tambah Jurusan',
+    'title' => [
+        'tambah' => 'Tambah Jurusan',
+        'edit' => 'Edit Jurusan',
+    ],
     'input' => [
         'nama' => 'Nama Jurusan',
         'ket' => 'Keterangan'

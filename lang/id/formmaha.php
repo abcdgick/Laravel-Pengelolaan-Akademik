@@ -1,6 +1,9 @@
 <?php
 return[
-    'title' => 'Tambah Mahasiswa',
+    'title' => [
+        'tambah' => 'Tambah Mahasiswa',
+        'edit' => 'Edit Mahasiswa'
+    ],
     'input' => [
         'nama' => 'Nama Mahasiswa',
         'gender' => 'Jenis Kelamin',

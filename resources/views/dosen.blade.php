@@ -2,13 +2,13 @@
 @section('title', 'Dosen')
 
 @section('content')
-<div class="container-fluid px-4">
+<div class="container-fluid px-4 mt-4">
     @if(Session::has('pesan'))
         <div class="alert alert-info" role="alert">
             {{Session::get('pesan')}}
         </div>
     @endif
-    <h1 class="mt-4">{{__('tabeldosen.title')}}</h1>
+    <h2 class="mt-4">{{__('tabeldosen.title')}}</h2>
     <p><a href="/createdosen">
         <button class="btn btn-primary mb-2">{{__('tabeldosen.tampil.tambah')}}</button></a></p>
     <div class="card mb-4">
@@ -62,6 +62,10 @@
                 </tbody>
             </table>
         </div>
+    </div>
+    <div class="container mb-4">
+        <a href="/dosen/en">English</a> | 
+        <a href="/dosen">Indonesia</a> 
     </div>
 </div>
 @endsection
